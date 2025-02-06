@@ -27,6 +27,16 @@ header{
     border-radius: 10px 10px 0px 0px;      
       
 }
+#brasao01 {
+    position: absolute;
+    left: 100px;
+    top: 450px;
+    z-index: 1;
+    height: 250px;
+    opacity: 0.2;
+    background-size: cover; 
+    
+    } 
 header > h1{
 
     color:white ;
@@ -67,138 +77,116 @@ nav > a:hover{
     background-color: #83e1ad; 
     border-radius: 5px; 
     padding: 15px;
-
 }
-#brasao01 {
-position: absolute;
-left: 100px;
-top: 450px;
-z-index: 1;
-height: 250px;
-opacity: 0.2;
-background-size: cover; 
 
-} 
 p {     
-font-weight: normal;
-font-size: 1.1em;
-line-height: 1.8em;
-text-align: justify;  
-color: black;     
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    text-align: justify;  
+    color: black;     
 }
+
 h2{
     background-color: #c5ebd6;
     font-size: 1.2em;
     border-radius: 5px;
     padding: 5px;
 }
+
 h3{
     background-color: #1a5c37;
     color: white;
     padding: 5px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 10px 10px;
-
-}
-
-article{
-background-color:#3ddc84;
-font-weight: normal;
-font-size: 1.1em;
-line-height: 1.8em;
-text-align: justify;  
-color: black;
-padding: 30px; 
-border-radius: 0px 0px 10px 10px; 
-background-size: cover;    
 }
 
 section{
-background-color:#c5ebd6;
-font-weight: normal;
-font-size: 1.1em;
-line-height: 1.8em;
-text-align: justify;  
-color: black;
-padding: 30px;
-border-radius: 10px 10px 10px 10px;
+    background-color:#c5ebd6;
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    text-align: justify;  
+    color: black;
+    padding: 30px;
+    border-radius: 10px 10px 10px 10px;
 }
-
+    
 section.par1{
     background-color: white;
     font-size: 1.1em;
     padding: 50px;
     border-radius: 10px 10px 10px 10px; 
-    
-           
 }
+
+article{
+    background-color:#3ddc84;
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    text-align: justify;  
+    color: black;
+    padding: 30px; 
+    border-radius: 0px 0px 10px 10px; 
+    background-size: cover;  
+
+}
+
 article{
     border-radius: 10px 10px 10px 10px;
     margin: 0px;
-    background-size: cover; 
-}
-article#foto1{
-    background-image: url(freixo.jpg);
-    background-position: center center;
-    border-radius: 10px 10px 10px 10px;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-size: contain;
-     
-    }
-    article.imagemFreixo{
-        background-color: rgb(19, 18, 18);
-        color: white;
-        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.589);
-        background-size: cover;
-        background-attachment: fixed;
-        padding: 50px;
-        min-width: 210px; 
-        max-width: 1350px; 
+    background-image: url(capa.jpg); 
+    background-position: center bottom;
+ 
+}
 
-
-    }
-    #atual{
-        background-color: rgb(196, 216, 176);
-        color: black;
-        width: 250px;
-    }
-    aside{
-        background-color: #83e1ad;
-        padding: 10px;
-        border-radius: 10px;
-        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.705);
-        border-radius: 10px 10px 10px 10px;
-    }
-    aside > ul {
-        list-style-position: inside;
-        columns: 2;
-        list-style-type: "✔️ ";
-    }
-    aside h3{
-        background-color: var(--cor4);
-        color: white;
-        padding: 10px;
-        margin: -10px -10px 0px -10px;
-        border-radius: 10px 10px 10px 10px;   
+section#casa{
+    background-image: url(freixo.jpg); 
+    background-position: center bottom;
+    background-size: cover;
     
-    }
-    footer p{
-        color: white;
-        font-size: 0.8em;
-        text-align: center;
-        margin: 0;
-    }
-   div#aventura{
+}
+
+div#aventura{
     background-color: #83e1ad;
     border-radius: 10px 10px 10px 10px;
-    
-   }
-   div#aventura > p {
-    padding: 8px;
-    margin-top: 10px;
+    padding: 30px;
+    background-size: cover;
+}
+
+aside{
     background-color: #83e1ad;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.705);
+    border-radius: 10px 10px 10px 10px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: "✔️ ";
+}
+
+aside h3{
+    background-color: var(--cor4);
     color: white;
-   }
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 10px 10px;  
+
+}
+
+footer p{
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0;
+
+}
+   
+   
   
 
