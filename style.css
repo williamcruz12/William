@@ -132,6 +132,7 @@ section.par1{
 }
 article{
     border-radius: 10px 10px 10px 10px;
+    margin: 0px;
 }
 article#foto1{
     background-image: url(freixo.jpg);
@@ -179,4 +180,14 @@ article#foto1{
         text-align: center;
         margin: 0;
     }
-   
+   div#aventura{
+    background-color: #83e1ad;
+    border-radius: 10px 10px 10px 10px;
+    
+   }
+   div#aventura > p {
+    padding: 8px;
+    margin-top: 10px;
+   }
+  
+
