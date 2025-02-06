@@ -19,6 +19,7 @@ body{
     height: 100vh;
     
 }
+
 header{
     background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
     text-align: center;
@@ -26,6 +27,28 @@ header{
     height: 180px;
     border-radius: 10px 10px 0px 0px;      
       
+}
+
+header > h1{
+
+    color:white ;
+    font-family:cursive ;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 4em;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);    
+    background-size: cover;  
+       
+}
+
+p#cabeca{
+    color:white ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.623);
+         
 }
 #brasao01 {
     position: absolute;
@@ -36,27 +59,17 @@ header{
     opacity: 0.2;
     background-size: cover; 
     
-    } 
-header > h1{
+} 
+section h2{
+    background-color: var(--cor4);
+    color: white;
+    border-radius: 10px 10px 10px 10px;  
+    width: 400px;
+    padding: 5px;
+   text-align: center;
+    
+}
 
-    color:white ;
-    font-family:cursive ;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    font-size: 4em;
-    font-weight: normal;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);    
-    background-size: cover; 
-       
-}
-p#cabeca{
-    color:white ;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .9em;
-    text-align: center;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.623);
-         
-}
 nav{
     background-color:#2fa866;
     padding: 10px;
@@ -87,17 +100,21 @@ p {
     color: black;     
 }
 
-h2{
-    background-color: #c5ebd6;
-    font-size: 1.2em;
-    border-radius: 5px;
+h2 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 10px 10px;  
+    width: 400px;
     padding: 5px;
+    text-align: center;
 }
 
 h3{
-    background-color: #1a5c37;
+    background-color: #2fa866;
     color: white;
-    padding: 5px;
+    padding: 3px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 10px 10px;
 }
@@ -143,9 +160,14 @@ article{
 }
 
 section#casa{
-    background-image: url(freixo.jpg); 
-    background-position: center bottom;
+    background-image: url(casaL.jpg); 
+    background-position: center center;
     background-size: cover;
+    
+    z-index: -08;
+   
+    background-repeat: no-repeat;
+   
     
 }
 
