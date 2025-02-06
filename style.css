@@ -152,7 +152,7 @@ div.casa > p{
 }
 
 div.aventura{
-    background-color: #2fa866;
+    background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
     background-position: center center;
     background-size: contain; 
     border-radius: 10px;
@@ -161,7 +161,7 @@ div.aventura{
   
 
 div{
-    background-color:#267a61;
+    background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
     background-position: center center;
     background-size: contain; 
     border-radius: 10px;
@@ -203,7 +203,7 @@ div h3{
 }
 
 aside{
-    background-color: #83e1ad;
+    background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.705);
