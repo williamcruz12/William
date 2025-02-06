@@ -7,19 +7,23 @@
     --cor3:#2fa866;
     --cor4:#1a5c37;
     --cor5:#063d1e;}
+    *{
+        min-width: 210px; 
+        max-width: 1350px;    
+    }
 
 body{
     background-color: #c5ebd6;
     margin:0px!important;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 header{
     background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
     text-align: center;
     padding-top: 20px;
-    height: 150px;
-    border-radius: 10px 10px 0px 0px;
-   
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;      
       
 }
 header > h1{
@@ -30,7 +34,7 @@ header > h1{
     margin-bottom: 20px;
     font-size: 3em;
     font-weight: normal;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623); 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);     
        
 }
 p#cabeca{
@@ -38,23 +42,24 @@ p#cabeca{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     text-align: center;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.623);      
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.623);
+         
 }
 nav{
     background-color:#2fa866;
-    padding: 10px;
+    padding: 11px;
     background-image: linear-gradient(to bottom, #3ddc84, #063d1e);
     text-align: center;
     border-radius: 0px 0px 10px 10px;
+    
  }
 nav > a{
     color: #d8ebe0;
-    padding: 40px;
+    padding: 8px;
     text-decoration: none;
     font-weight: bold;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.37);
-
-  
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.37);  
+    text-align: center;
 }
 nav > a:hover{
     background-color: #83e1ad; 
@@ -64,8 +69,8 @@ nav > a:hover{
 }
 #brasao01 {
 position: absolute;
-left: 300px;
-top: 270px;
+left: 100px;
+top: 450px;
 z-index: 1;
 height: 250px;
 opacity: 0.2;  
@@ -74,16 +79,38 @@ opacity: 0.2;
 
 p {     
 font-weight: normal;
-font-size: 1.2em;
-line-height: 2em;
+font-size: 1.1em;
+line-height: 1.8em;
 text-align: justify;  
 color: black;     
 }
+
+article{
+background-color:#3ddc84;
+font-weight: normal;
+font-size: 1.1em;
+line-height: 1.8em;
+text-align: justify;  
+color: black;
+padding: 30px;     
+}
+
+section{
+background-color:#c5ebd6;
+font-weight: normal;
+font-size: 1.1em;
+line-height: 1.8em;
+text-align: justify;  
+color: black;
+padding: 30px;
+}
+
 section.par1{
     background-color: white;
     font-size: 1.1em;
     padding: 50px;
     border-radius: 10px 10px 10px 10px; 
+    
            
 }
 article#foto1{
