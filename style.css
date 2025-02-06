@@ -13,7 +13,7 @@
     }
 
 body{
-    background-color: #c5ebd6;
+    background-color: black;
     margin:0px!important;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -32,15 +32,16 @@ header > h1{
     font-family:cursive ;
     margin-top: 25px;
     margin-bottom: 20px;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: normal;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);     
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);    
+    background-size: cover; 
        
 }
 p#cabeca{
     color:white ;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: .9em;
     text-align: center;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.623);
          
@@ -73,16 +74,30 @@ left: 100px;
 top: 450px;
 z-index: 1;
 height: 250px;
-opacity: 0.2;  
+opacity: 0.2;
+background-size: cover; 
 
 } 
-
 p {     
 font-weight: normal;
 font-size: 1.1em;
 line-height: 1.8em;
 text-align: justify;  
 color: black;     
+}
+h2{
+    background-color: #c5ebd6;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 5px;
+}
+h3{
+    background-color: #1a5c37;
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 10px 10px;
+
 }
 
 article{
@@ -92,7 +107,8 @@ font-size: 1.1em;
 line-height: 1.8em;
 text-align: justify;  
 color: black;
-padding: 30px;     
+padding: 30px; 
+border-radius: 0px 0px 10px 10px;    
 }
 
 section{
@@ -103,6 +119,7 @@ line-height: 1.8em;
 text-align: justify;  
 color: black;
 padding: 30px;
+border-radius: 10px 10px 10px 10px;
 }
 
 section.par1{
@@ -113,10 +130,14 @@ section.par1{
     
            
 }
+article{
+    border-radius: 10px 10px 10px 10px;
+}
 article#foto1{
     background-image: url(freixo.jpg);
     background-position: center center;
     border-radius: 10px 10px 10px 10px;
+    background-size: cover;
      
     }
     article.imagemFreixo{
@@ -137,6 +158,7 @@ article#foto1{
         padding: 10px;
         border-radius: 10px;
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.705);
+        border-radius: 10px 10px 10px 10px;
     }
     aside > ul {
         list-style-position: inside;
@@ -148,8 +170,13 @@ article#foto1{
         color: white;
         padding: 10px;
         margin: -10px -10px 0px -10px;
-        border-radius: 10px 10px 0px 0px;
-        
+        border-radius: 10px 10px 10px 10px;   
     
+    }
+    footer p{
+        color: white;
+        font-size: 0.8em;
+        text-align: center;
+        margin: 0;
     }
    
