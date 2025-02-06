@@ -179,7 +179,7 @@ div > p{
 
 div h2 {
     background-color: var(--cor4);
-    color:black;
+    color:white;
     border-radius: 10px 10px 10px 10px;  
     text-align: center;
     margin-bottom: 20px; 
