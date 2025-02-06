@@ -9,15 +9,23 @@
     --cor5:#063d1e;}
     *{
         min-width: 210px; 
-        max-width: 1350px;    
+        max-width: 1350px; 
+        margin: 0px;   
     }
 
 body{
     background-color: black;
     margin:0px!important;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100vh;
-    
+    height: 100vh;       
+}
+p {     
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: justify;  
+    color: black;
+       
 }
 
 header{
@@ -52,23 +60,11 @@ p#cabeca{
 }
 #brasao01 {
     position: absolute;
-    left: 100px;
-    top: 450px;
     z-index: 1;
-    height: 250px;
     opacity: 0.2;
-    background-size: cover; 
-    
+    background-size: contain;
+    background-position: center;    
 } 
-section h2{
-    background-color: var(--cor4);
-    color:white;
-    border-radius: 10px 10px 10px 10px;  
-    width: 0px;
-    padding: 0px;
-   text-align: center;
-    
-}
 
 nav{
     background-color:#2fa866;
@@ -91,87 +87,108 @@ nav > a:hover{
     border-radius: 5px; 
     padding: 15px;
 }
-
-p {     
-    font-weight: normal;
-    font-size: 1.1em;
-    line-height: 1.8em;
-    text-align: justify;  
-    color: black;     
-}
-
-h2 {
-    background-color: var(--cor4);
-    color: white;
-    padding: 10px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 10px 10px;  
-    width: 400px;
-    padding: 4px;
-    text-align: center;
-}
-
-h3{
-    background-color: #2fa866;
-    color: white;
-    padding: 3px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 10px 10px;
-}
-
-section{
-    background-color:#c5ebd6;
-    font-weight: normal;
-    font-size: 1.1em;
-    line-height: 1.8em;
-    text-align: justify;  
-    color: black;
-    padding: 30px;
-    border-radius: 10px 10px 10px 10px;
-}
-    
-section.par1{
+/*fundo brasao branco */
+section.historia{
     background-color: white;
     font-size: 1.1em;
-    padding: 50px;
+    padding: 20px;
     width: auto;
     border-radius: 10px 10px 10px 10px; 
 }
 
-article{
-    background-color:#3ddc84;
+section h2{
+    background-color: var(--cor4);
+    color:white;
+    border-radius: 10px 10px 10px 10px;  
+    text-align: center;
+    margin-bottom: 20px; 
+    height: auto; 
+}  
+
+div.fotofreixo{
+    background-image: url(capa.jpg); 
+    background-position: bottom center;
+    border-radius: 10px;
+    background-size: cover;
+    padding: 20px;
+    height: auto;      
+}
+div.fotofreixo > p{
     font-weight: normal;
     font-size: 1.1em;
-    line-height: 1.8em;
+    line-height: 1.3em;
     text-align: justify;  
-    color: black;
-    padding: 30px; 
-    border-radius: 0px 0px 10px 10px; 
-    background-size: cover;  
-
+    color: white; 
+    margin: 30px;
 }
 
-article{
-    border-radius: 10px 10px 10px 10px;
-    margin: 0px;
-    background-size: cover;
-    background-image: url(capa.jpg); 
-    background-position: center bottom;
- 
-}
-
-section#casa{
+div.casa{
     background-image: url(casaL.jpg); 
     background-position: center center;
     background-size: cover; 
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;    
    
 }
+div.casa > p{
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: justify;  
+    color: white; 
+    margin: 30px;
 
-div#aventura{
-    background-color: #83e1ad;
+}
+
+div.aventura{
+    background-color: #2fa866;
+    background-position: center center;
+    background-size: contain; 
+    border-radius: 10px;
+    padding: 10px;      
+}
+  
+
+div{
+    background-color:#267a61;
+    background-position: center center;
+    background-size: contain; 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div > p{
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: justify;  
+    color: white; 
+    margin: 30px;
+}
+
+div h2 {
+    background-color: var(--cor4);
+    color:black;
+    border-radius: 10px 10px 10px 10px;  
+    text-align: center;
+    margin-bottom: 20px; 
+    height: auto;
+}
+
+
+div.aventura > h2{
+    border-radius: 20px;  
+    text-align: center;
+    margin: 1px; 
+    height: auto;  
+}
+
+div h3{
+    background-color: var(--cor4);
+    color: white;  
+    margin: 10px;
     border-radius: 10px 10px 10px 10px;
-    padding: 30px;
-    background-size: cover;
 }
 
 aside{
@@ -190,19 +207,16 @@ aside > ul {
 
 aside h3{
     background-color: var(--cor4);
-    color: white;
-    padding: 10px;
-    margin: -10px -10px 0px -10px;
+    color: white;  
+    margin: 10px;
     border-radius: 10px 10px 10px 10px;  
 
 }
 
 footer p{
-    color: white;
-    font-size: 0.8em;
-    text-align: center;
-    margin: 0;
-
+    text-align: center;  
+    color: white;  
+    font-size: small;   
 }
    
    
