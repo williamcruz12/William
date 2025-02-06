@@ -77,6 +77,9 @@ height: 250px;
 opacity: 0.2;
 background-size: cover; 
 
+
+
+
 } 
 p {     
 font-weight: normal;
@@ -148,6 +151,10 @@ article#foto1{
         background-size: cover;
         background-attachment: fixed;
         padding: 50px;
+        min-width: 210px; 
+        max-width: 1350px; 
+
+
     }
     #atual{
         background-color: rgb(196, 216, 176);
@@ -188,6 +195,8 @@ article#foto1{
    div#aventura > p {
     padding: 8px;
     margin-top: 10px;
+    background-color: #83e1ad;
+    color: white;
    }
   
 
