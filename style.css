@@ -62,9 +62,9 @@ p#cabeca{
 } 
 section h2{
     background-color: var(--cor4);
-    color: white;
+    color:white;
     border-radius: 10px 10px 10px 10px;  
-    width: 400px;
+    width: 200px;
     padding: 5px;
    text-align: center;
     
@@ -106,7 +106,7 @@ h2 {
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 10px 10px;  
-    width: 300px;
+    width: 400px;
     padding: 4px;
     text-align: center;
 }
@@ -163,13 +163,8 @@ article{
 section#casa{
     background-image: url(casaL.jpg); 
     background-position: center center;
-    background-size: cover;
-    
-    z-index: -08;
+    background-size: cover; 
    
-    background-repeat: no-repeat;
-   
-    
 }
 
 div#aventura{
