@@ -136,10 +136,11 @@ div.fotofreixo > p{
 div.casa{
     background-image: url(casaL.jpg); 
     background-position: center center;
-    background-size: cover; 
+    background-size: contain; 
     border-radius: 10px;
     padding: 20px;
-    height: auto;    
+    height: auto;  
+     
    
 }
 div.casa > p{
