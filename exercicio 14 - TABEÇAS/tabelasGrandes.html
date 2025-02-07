@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+            top: 0;
+
+        }
+        
+        thead > tr > th {
+            position: sticky;
+        }
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: darkgrey;
+            color: white;
+        }
+        caption{
+            background-color: cadetblue;
+            padding: 10px;
+            font-size: 1.5em;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: aquamarine;
+            
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: burlywood;
+            
+        }
+       
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <!--Anatomia tabela grande
+    CAPTION = NOME DA TABELA
+    TABLE
+    THEAD
+    tr, td, th
+    TBODY
+    tr, td, th
+    TFOOT
+    tr, td, (TH = cabacario)-->
+
+
+    <table>
+        <CAption>Populacao de cidades que visitei </CAption>
+        <thead>
+    <tr>
+        <th scope="col">Estado</th>
+        <th scope="col"style="width: 50px;">Populacao</th>
+        <th scope="col">conheco</th>
+    </tr>
+        </thead>
+
+        <tbody>
+    <tr>
+                
+        <td>Sao paulo</td>
+        <td>56.446</td>
+        <td>Sim</td>
+                    
+               
+    </tr>
+    <tr>
+                
+        <td>Rio de janeiro</td>
+        <td>156.446</td>
+        <td>Sim</td>
+                    
+               
+    </tr>
+    <tr>
+                
+        <td>Recife</td>
+        <td>565.446</td>
+        <td>Sim</td>
+                    
+               
+    </tr>
+    <tr>
+                
+        <td>Alagoas</td>
+        <td>5.446</td>
+        <td>Sim</td>
+                    
+               
+    </tr>
+    <tr>
+                
+        <td>Rio grande do norte</td>
+        <td>6.446</td>
+        <td>Sim</td>
+                    
+               
+    </tr>
+
+
+
+        </tbody>
+
+        <tfoot>
+<tr>
+<th>Toral de Habitantes</th>
+<td><strong>25548.2455</strong></td>
+<td>visita</td>
+
+
+
+</tr>
+
+
+
+        </tfoot>
+        
+        
+       
+    
+</body>
+</html>
