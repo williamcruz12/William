@@ -35,6 +35,7 @@ header{
     padding-top: 20px;
     height: 180px;
     border-radius: 10px 10px 0px 0px;
+    position: relative;
         
       
 }
@@ -64,6 +65,7 @@ p#cabeca{
     text-align: center;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.623);
     width: auto;
+   
          
 }
 #brasao01 {
@@ -158,7 +160,8 @@ div.aventura{
     background-position: center center;
     background-size: contain; 
     border-radius: 10px;
-    padding: 10px;      
+    padding: 10px;
+       
 }
   
 
@@ -168,6 +171,7 @@ div{
     background-size: contain; 
     border-radius: 10px;
     padding: 10px;
+   
 }
 
 div > p{
