@@ -9,12 +9,13 @@
     --cor5:#063d1e;}
     *{
         min-width: 210px; 
-        max-width: 1350px; 
-        margin: 0px;   
+        max-width: 1020px; 
+        margin: 0px; 
+     
     }
 
 body{
-    background-color: black;
+    background-color: white;
     margin:0px!important;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;       
