@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><iframe src="" frameborder="0"></iframe></title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione harum tenetur eligendi suscipit porro corporis nam in eum aliquam distinctio reiciendis dolores facere, iusto totam enim! Adipisci cupiditate soluta molestias.</p>
+    <iframe src="https://williamcruz12.github.io/William/" width="600px"></iframe>
+    <form action="cadastro.php" method="get">
+        <p>
+            Nome:
+            <input type="text" name="nome" id="nome">
+            <input type="submit" value="cadastrar ">
+        </p>
+    </form>
+    
+    <a href="#" onclick="clicou">Clique em mim</a>
+    <div id="saida"></div>
+
+    <script>
+        function clicou(){
+            s = window.document.getElementById("saida")
+        s.innerHTML += '<p> Voce clicou</p>'
+        }
+    </script>
+</body>
+</html>
