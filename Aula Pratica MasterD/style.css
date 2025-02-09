@@ -41,8 +41,13 @@ table.skills{
 div.projeto{
     background-image: url(fotoTabela.jpeg);
     background-position: top ;
-    margin-top: 50px;
-    
+    margin-top: 50px;    
+}
+.projeto li{
+    color: white;
+}
+#botao{
+    color: white;
 }
 div.profissional{
     background-color: coral;
