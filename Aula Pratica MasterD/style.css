@@ -42,22 +42,28 @@
     }
   input{
     background-color: #CFF253;
-    padding: 5px;
+    padding: 8px;
     border-radius: 7px;
+    
+    
   }
   p{
     color: white;
   }
-.par1{
-    background-color: rgb(110, 110, 110);
-    margin-top: 70px;
-    border-radius: 10px;
+  table{
+    background-color: darkgray;
+    width: 800px; 
+      
 }
+
 .projeto{
     background-image: url(foto\ pc.jpeg);
     background-size: contain;
     
+    
 }
+
+
   
     
 
