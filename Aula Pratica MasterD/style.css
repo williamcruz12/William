@@ -1,51 +1,62 @@
 @charset "UTF-8"
 
 * { 
-    box-sizing: border-box; 
     max-width: 1024px
     font-family: Arial, Helvetica, sans-serif; 
-    
-   
     } 
+
     body{
         background-color: #212226;
         color: #CFF253;
     }
-    #nomi{
-        margin: 500px;
-    }
+    nav{
+        font-size: larger;
+        padding: 10px;
+        font-size: larger;
+        color: #CFF253;
+      }
+
     a{
         padding: 20px;
-            color: #CFF253;
-            text-decoration: none;
-            margin-left: 30px;
-            font-size: 20px; 
-            margin: 15px; 
-                                 
+        color: #CFF253;
+        text-decoration: none;
+        margin-left: 30px;
+        font-size: 20px; 
+        margin: 15px;                     
     }
-   
-    a:hover{
-        background-color: #ad9c8e;
-    }
-   hr{
-    color: #CFF253;
-   }
-  
-th#eu{
-color: white;
-margin-left: 30px;
-  }
  
-table.sobremim{
-    background-color: darkgray;
-    width: 800px;      
-}
-
-.projeto{
-    background-image: url(foto\ pc.jpeg);
-    background-size: contain;  
+div.sobremim1{
+    margin-bottom: 80px;
+  
     
 }
+a{
+    margin: 30px;
+    padding: 0px;
+}
+
+input{
+    background-color: #CFF253;
+    margin-top: 0px;
+    padding: 0%;
+}
+
+
+
+div.skills{
+    background-color: burlywood;
+    
+}
+
+div.projeto{
+    background-color: cornflowerblue;
+    margin-top: 50px;
+    
+}
+div.profissional{
+    background-color: coral;
+}
+
 
 
 
