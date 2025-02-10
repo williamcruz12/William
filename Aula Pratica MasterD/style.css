@@ -2,56 +2,74 @@
 
 * { 
     max-width: 1024px
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1020px;
+     min-width: 260px; 
+
     } 
 
     body{
         background-color: #212226;
         color: #CFF253;
+        max-width: 1020px;
+        min-width: 260px;
+        margin: auto;
     }
     nav{
         padding: 10px;
         font-size: 30px;
         color: #CFF253;
+        
       }
 
     a{
         padding: 20px;
         color: #CFF253;
         text-decoration: none;
-        font-size: 20px; 
-                     
+        font-size: 20px;             
     }
-
+    
 input{
     background-color: #CFF253;
-    
     padding: 4px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 .sobremim1 p{
     color: white;
 }
 
+
 table.skills{
  background-color:rgb(92, 90, 90);border-radius: 10px;
+ margin-top: 50px;
+width: 1024px
     
 }
 
-div.projeto{
+.projeto{
     background-image: url(fotoTabela.jpeg);
     background-position: top ;
-    margin-top: 50px;    
+    background-size: cover;
+    margin-top: 10px;
+    width: 1024px
+       
 }
 .projeto li{
     color: white;
+    margin-bottom: 10px;
 }
-#botao{
-    color: white;
+.projeto h2{
+   margin: 10px;
+    padding: 25px;
 }
-div.profissional{
-    background-color: coral;
+.servico{
+    border: 1px solid black;
+    width: 1024px
 }
+table.servico td {
+    border: 1px solid black;
+}
+
 
 
 
