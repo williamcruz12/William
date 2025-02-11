@@ -24,13 +24,7 @@
         margin: auto;
 
     } 
-    .nav1 #th1 {
-        word-wrap: break-word; 
-        word-break: break-word; 
-        white-space: normal; 
-        max-width: 200px; 
-    }
-
+    
     nav a{  
         color: #CFF253;
         text-decoration: none;
@@ -39,6 +33,12 @@
     }
     .nav1{
         width: 100%;
+    }
+    .nav1 #th1 {
+        word-wrap: break-word; 
+        word-break: break-word; 
+        white-space: normal; 
+        max-width: 200px; 
     }
     
     input{
