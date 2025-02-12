@@ -1,0 +1,76 @@
+
+
+body{
+    background-color: #212226;
+    color: #CFF253;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    width: 100%;
+            
+}
+nav{    
+    color:#CFF253;
+    width: 100%;
+    margin: auto;
+}
+nav a{  
+    color: #CFF253;
+    text-decoration: none;
+    padding: 30px;             
+}
+nav #th1 {
+    font-size: 30px;
+}
+.contacto .h1{
+    color:white;
+    background-color: brown;    
+}  
+p {
+    color: white;
+} 
+#botao1{
+    background-color: #CFF253;
+   width: 600px;
+    height: 40px;
+    border-radius: 8px;    
+}
+a{
+    color: #CFF253;
+}
+.fale{
+    background-color:#5C5A5A;
+    border-radius: 8px;
+}
+div.formulario{
+    margin-top: 30px;
+    
+}
+
+
+
+div.obrigado{
+    background-color:#5C5A5A;
+    border-radius: 8px;
+  
+
+}
+.obrigado td{
+    border: 1px solid black;
+   
+   }
+   .obrigado tr{
+margin-top: 30px;   
+   }
+input, textarea{
+    width: 98.8%;
+}
+.final {
+width: 100%
+}
+.final > img{
+    background-color: aqua;
+}
+
+footer{
+    margin: 40px;
+}
