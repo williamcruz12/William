@@ -37,6 +37,12 @@
   padding: 10px!important;
 }
 
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 body {
   background-color: #212226!important;
   color: #ffffff!important;
@@ -49,11 +55,7 @@ body {
     text-align: center!important;
     
    }
-   .merriweather-bold {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
+
    h2 {
     font-size: 2rem !important;
    }
@@ -71,7 +73,7 @@ body {
    } 
 
    h1 {
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: "Merriweather", serif;
     /* Cor dos títulos */
     margin-bottom: 1rem !important;
     font-size: 2.5rem !important;
