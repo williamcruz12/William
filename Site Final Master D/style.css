@@ -12,6 +12,9 @@
   
    
    } 
+   #navbarNav{
+    justify-content: center;
+   }
 .video {
     height: 300px!important;  /* Ajustar a altura em pixes */
     width: 100%!important;
@@ -44,7 +47,13 @@ body {
    h2,   h3,   h4 {
     color: #CFF250 !important; 
     text-align: center!important;
+    
    }
+   .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
    h2 {
     font-size: 2rem !important;
    }
@@ -62,30 +71,12 @@ body {
    } 
 
    h1 {
-    font-family: Merriweather;
-    color: #fff;
+    font-family: Arial, Helvetica, sans-serif !important;
     /* Cor dos títulos */
     margin-bottom: 1rem !important;
     font-size: 2.5rem !important;
+    line-height: 250px !important;
    }
-   
-
-   .btn-primary {
-    background-color: #CFF250 !important;
-    border-color: #CFF250 !important;
- color: #212226;
-} 
-
-.btn-primary:hover {
-    background-color: #212226 !important;
-    border-color: #CFF250 !important;
-    color: #CFF250 !important;
-   }
-   img.img-fluid {
-    max-width: 100% !important;
-    height: auto !important;
-   } 
-
    section {
     margin-bottom: 3rem !important;
    }
@@ -134,4 +125,19 @@ body {
     margin: 0 0.5rem!important;
     color: #CFF250!important;
    } 
-   
+   /*botao footer */
+   .btn-primary {
+    background-color: #CFF250 !important;
+    border-color: #CFF250 !important;
+ color: #212226;
+} 
+
+.btn-primary:hover {
+    background-color: #212226 !important;
+    border-color: #CFF250 !important;
+    color: #CFF250 !important;
+   }
+   img.img-fluid {
+    max-width: 100% !important;
+    height: auto !important;
+   } 
