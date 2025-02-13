@@ -4,22 +4,29 @@
   font-weight: 700;
   font-style: normal;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  
+ 
+  body {
+    background-color: #748578 !important;
+    color: #ffffff!important;
+    font-family: "Lato", sans-serif!important;
+    line-height: 1.6!important;
+  } 
    
-   } 
    #navbarNav{
     justify-content: center;
-   }
+    font-size: x-large;
+    font-family: "Merriweather", serif;
+
+  }
+  a{
+    color: brown;
+  }
+
 .video {
-    height: 300px!important;  /* Ajustar a altura em pixes */
+    height: 300px!important;/* Ajustar a altura em pixes */
     width: 100%!important;
     position: relative!important;
-}
+  }
 
 .video video {
   width: 100%!important;
@@ -27,68 +34,37 @@
   position: absolute!important;
   object-fit: cover!important;
   z-index: 0!important;
-}
+  }
 
-/* Just styling the content of the div, the *magic* in the previous rules */
+/* h1 video*/
 .video .caption {
   z-index: 1!important;
   position: relative!important;
   text-align: center!important;
   padding: 10px!important;
 }
-
-.merriweather-bold {
-  font-family: "Merriweather", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-body {
-  background-color: #212226!important;
-  color: #ffffff!important;
-  font-family: "Lato", sans-serif!important;
-  line-height: 1.6!important;
-   } 
-   
-   h2,   h3,   h4 {
-    color: #CFF250 !important; 
+ 
+  h2,   h3,   h4 {
+    color: brown !important; 
     text-align: center!important;
-    
-   }
-
-   h2 {
+    font-family: "Merriweather", serif;
     font-size: 2rem !important;
-   }
-
-   h3 {
-    font-size: 1.75rem !important;
-   }
+         
+  }
    
-   h4 {
-    font-size: 1.5rem !important;
-   }
    p {
-    margin-bottom: 1rem !important;
+    margin-bottom: 1.5rem !important;
     color: #fff !important;
+    font-size: 1.5em;
    } 
 
    h1 {
     font-family: "Merriweather", serif;
-    /* Cor dos títulos */
     margin-bottom: 1rem !important;
-    font-size: 2.5rem !important;
+    font-size: 3.5rem !important;
     line-height: 250px !important;
+    color: rgba(255, 127, 80, 0.747)!important;
    }
-   section {
-    margin-bottom: 3rem !important;
-   }
-   section h2 {
-    
-    padding-bottom: 0.5rem !important;
-   }
-   section p {
-    margin-bottom: 1.5rem !important;
-   } 
 
    @media (min-width: 40em) {
     /* Bump up size of carousel content */
@@ -108,38 +84,13 @@ body {
       margin-top: 7rem;
     }
   }
-  
-   footer {
-    border-top: 2px solid #CFF250!important;
-    background-color: #212226;
-    /* Cor de fundo escura para o rodapé */
-    color: #fff!important;
-    /* Cor do texto no rodapé */
-   }
-   footer a {
-    color: #fff!important;
-   }
-   footer a:hover {
-    color: #CFF250!important;
-   }
-   footer .fa {
-    font-size: 1.5rem!important;
-    margin: 0 0.5rem!important;
-    color: #CFF250!important;
-   } 
-   /*botao footer */
+
    .btn-primary {
-    background-color: #CFF250 !important;
-    border-color: #CFF250 !important;
- color: #212226;
-} 
+    background-color: brown !important;
+  } 
 
 .btn-primary:hover {
-    background-color: #212226 !important;
     border-color: #CFF250 !important;
     color: #CFF250 !important;
    }
-   img.img-fluid {
-    max-width: 100% !important;
-    height: auto !important;
-   } 
+ 
