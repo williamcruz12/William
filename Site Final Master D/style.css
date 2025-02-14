@@ -6,7 +6,7 @@
 }
  
   body {
-    background-color: #748578 !important;
+    background-color: #4a7e56 !important;
     font-family: "Lato", sans-serif!important;
     line-height: 1.6!important;
   } 
@@ -14,13 +14,15 @@
    #navbarNav{
     justify-content: center;
     font-size: x-large;
-    font-family: "Merriweather", serif;
-    
+    font-family: "Merriweather", serif;   
   }
-
+li{
+  margin: 15px;
+  
+}
 
 .video {
-    height: 300px!important;/* Ajustar a altura em pixes */
+    height: 400px!important;/* Ajustar a altura em pixes */
     width: 100%!important;
     position: relative!important;
   }
@@ -48,8 +50,7 @@
     color:#ffa500 !important; 
     text-align: center!important;
     text-shadow: 1px 1px black;
-    
-         
+           
   }
 
    
@@ -64,11 +65,10 @@
    h2{
     font-family: "Merriweather", serif;
     color:#ffa500 !important; 
-    text-align: center!important;
+    text-align: center;
     font-size: 2.5rem !important;
     text-shadow: 1px 1px black;
-    margin-bottom: 1rem !important;
-         
+            
    }
 
    p {
@@ -105,5 +105,8 @@
 .btn-primary:hover {
     border-color: #CFF250 !important;
     color: #CFF250 !important;
+   }
+   .opacity-75{
+    margin-left: 30px;
    }
  
