@@ -40,9 +40,18 @@ li{
   z-index: 1!important;
   position: relative!important;
   text-align: center!important;
-  padding: 10px!important;
+  
   color:#ffa500;
   text-shadow: 1px 1px black;
+}
+#azeite{
+  font-family: "Merriweather", serif;
+    color:#ffa500 !important; 
+    text-align: center!important;
+    text-shadow: 1px 1px black;
+}
+#azite p{
+  color: black;
 }
  
   h3,   h4 {
@@ -68,14 +77,17 @@ li{
     text-align: center;
     font-size: 2.5rem !important;
     text-shadow: 1px 1px black;
-            
+          
    }
+   
 
    p {
     margin-bottom: 1.5rem !important;
     color: #fff !important;
     font-size: 1.5em;
     font-weight: 1.5em;
+    text-align: justify;
+    margin: 10px;
    } 
 
   
