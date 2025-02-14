@@ -7,7 +7,6 @@
  
   body {
     background-color: #748578 !important;
-    color: #ffffff!important;
     font-family: "Lato", sans-serif!important;
     line-height: 1.6!important;
   } 
@@ -16,11 +15,9 @@
     justify-content: center;
     font-size: x-large;
     font-family: "Merriweather", serif;
+    
+  }
 
-  }
-  a{
-    color: brown;
-  }
 
 .video {
     height: 300px!important;/* Ajustar a altura em pixes */
@@ -42,29 +39,36 @@
   position: relative!important;
   text-align: center!important;
   padding: 10px!important;
+  color:#ffa500;
+  text-shadow: 1px 1px black;
 }
  
   h2,   h3,   h4 {
-    color: brown !important; 
-    text-align: center!important;
     font-family: "Merriweather", serif;
-    font-size: 2rem !important;
+    color:#ffa500 !important; 
+    text-align: center!important;
+    font-size: 2.5rem !important;
+    text-shadow: 1px 1px black;
+    margin-bottom: 1rem !important;
          
   }
    
+   h1 {
+    font-family: "Merriweather", serif;
+    color: #F09804!important;
+    margin-bottom: 1rem !important;
+    font-size: 3.5rem !important;
+    line-height: 250px !important;
+    
+  
+   }
+
    p {
     margin-bottom: 1.5rem !important;
     color: #fff !important;
     font-size: 1.5em;
+    font-weight: 1.5em;
    } 
-
-   h1 {
-    font-family: "Merriweather", serif;
-    margin-bottom: 1rem !important;
-    font-size: 3.5rem !important;
-    line-height: 250px !important;
-    color: rgba(255, 127, 80, 0.747)!important;
-   }
 
    @media (min-width: 40em) {
     /* Bump up size of carousel content */
