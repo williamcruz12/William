@@ -13,29 +13,59 @@
             
     }
 
-    nav{
-        padding: 10px;
-        font-size: 30px;
-        color: #CFF253;
-        
-      } 
-
-    a{
-        padding: 30px;
-        color: #CFF253;
-        text-decoration: none;
-        font-size: 20px; 
-        max-width: 1020px;
-        min-width: 375px;
-                  
-    }
-    
-input{
-    background-color: #CFF253;
-    padding: 4px;
-    border-radius: 8px;
-    
+   /* General styles for the header */
+header {
+    padding: 10px;
 }
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;  /* Allows items to wrap on smaller screens */
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    gap: 15px;  /* Space between links */
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-icon i {
+    font-size: 1.5em;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;  /* Stack the logo, nav, and search icon */
+        align-items: center;  /* Center the items */
+    }
+
+    .navigation {
+        margin-top: 10px;
+        flex-direction: column;  /* Stack the links vertically */
+        align-items: center;
+    }
+
+    .navigation a {
+        margin: 5px 0;
+    }
+
+    .search-icon {
+        margin-top: 10px;
+    }
+}
+
 .sobremim1 p{
     color: white;
 }
