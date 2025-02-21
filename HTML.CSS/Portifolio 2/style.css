@@ -1,43 +1,40 @@
 @charset "UTF-8"
 
-*{
-    background-color: #212226;
-}
 
-    body{
-        background-color: #212226;
-        color: #CFF253;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
+ body{
+    background-color: #e7c158;
+    color: #9D4818;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
             
-    }
-
-   /* General styles for the header */
-header {
-    padding: 10px;
 }
+    
+
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;  /* Allows items to wrap on smaller screens */
+    flex-wrap: wrap; 
+    color: #9D4818;
 }
 
 .logo {
     font-size: 1.5em;
     font-weight: bold;
+    color: #9D4818;
+
 }
 
 .navigation {
     display: flex;
-    gap: 15px;  /* Space between links */
+    gap: 15px;  /* Space between links nave */
 }
 
 .navigation a {
     text-decoration: none;
-    color: white;
+    color: #9D4818;
     font-size: 1.1em;
 }
 
@@ -68,12 +65,16 @@ header {
 }
 
 .sobremim1 p{
-    color: white;
+    color: black;
+}
+h2, h3, h4, h5, h6{
+    color: #9D4818;
 }
 
 
 table.skills{
- background-color:rgb(92, 90, 90);border-radius: 10px;
+border-radius: 10px;
+ color: black;
  margin-top: 50px;
  min-width: 375px;
  width: 100%; 
@@ -86,9 +87,10 @@ table.skills{
     margin: 0 auto;
     max-width: 1200px;
     font-family: Arial, sans-serif;
+   
 }
 .projeto li{
-    color: white;  
+    color: #9D4818;;  
     text-align: justify;   
 }
 .projeto h2 {
@@ -155,6 +157,7 @@ table.skills{
 .servico{
     max-width: 1020px;
      min-width: 375px; 
+     background-color: #314028;
     
 }
 .servico td {
