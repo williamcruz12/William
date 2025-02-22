@@ -1,9 +1,23 @@
 @charset "UTF-8"
 
-#nav{
-    background-color: #314028;
+main{
+    background-color: #9D4818 !important;
 }
 
+
+#nav{
+    background-color: #9D4818;
+
+}
+
+#nav a {
+    color: white;
+    text-shadow: 0px 1px #314028;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    
+}
 
 p {
     color: #314028;
