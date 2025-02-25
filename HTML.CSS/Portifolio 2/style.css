@@ -164,39 +164,6 @@ box-shadow: 2px 2px #9D4818;
 }
 
 
-#botao2 input {
-   
-    padding: 5px ;
-    cursor: pointer;
-    background-color: #314028;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 2px 2px #9D4818;
-    text-align: center;
-}
-
-.final{
-    text-align: left;
-    float: right;
-}
-footer{
-    background-color: black;
-    padding: 0px;
-    margin: 5px;
-}
-
-@media (max-width: 768px) {
-    .minhas-skills {
-        text-align: center;
-    }
-    
-    .services {
-        margin-bottom: 20px;
-    }
-}
-
-
 
 
   
