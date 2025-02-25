@@ -24,7 +24,7 @@ crossorigin="anonymous">
   <header>
     <div> 
         <p id="teste" class="navbar-brand">
-        <div class="opacity-75"><img src="fec.gif" class="rounded float-left" alt="brasao" width="50px" style="float: left;"></p>
+        <div class="opacity-75"><img src="fec.gif" class="rounded float-left" alt="brasao" width="50px" style="float: left;" ></p>
     </div>
     
     <nav class="navbar navbar-expand-lg navbar">
@@ -38,19 +38,19 @@ crossorigin="anonymous">
           <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav justify-content-center">
                 <li class="nav-item" >
-                  <button type="button" class="btn btn-outline-warning">Home</button>
+                  <button style="text-shadow: 0 1px 1px rgba(0, 0, 0, 0.678);" type="button" class="btn btn-outline-warning">Home</button>
                 </li>
                 <li class="nav-item">
-                  <button type="button" class="btn btn-outline-warning">Atividades</button>
+                  <button style="text-shadow: 0 1px 1px rgba(0, 0, 0, 0.678); type="button" class="btn btn-outline-warning">Atividades</button>
                 </li>
                 <li class="nav-item">
-                  <button type="button" class="btn btn-outline-warning">Gastronomia</button>
+                  <button style="text-shadow: 0 1px 1px rgba(0, 0, 0, 0.678); type="button" class="btn btn-outline-warning">Gastronomia</button>
                 </li>
                 <li class="nav-item">
-                  <button type="button" class="btn btn-outline-warning">Vinhos</button>
+                  <button style="text-shadow: 0 1px 1px rgba(0, 0, 0, 0.678); type="button" class="btn btn-outline-warning">Vinhos</button>
                 </li>
                 <li class="nav-item">
-                  <button type="button" class="btn btn-outline-warning">O azeite</button>
+                  <button style="text-shadow: 0 1px 1px rgba(0, 0, 0, 0.678); type="button" class="btn btn-outline-warning">O azeite</button>
                 </li>
                 <li></li><i class="fas fa-search" style="float:right;"></i></li>
 
@@ -61,34 +61,40 @@ crossorigin="anonymous">
         </div>
       </nav>
     </header>
+
  <!--- Div video -->   
-        <div class="video">
-          <video autoplay muted defaultMuted loop>
-          <source src="46301467-04bc-4812-a22d-5526dfda10a8 (1).MOV" type="video/mp4"/></video>
-    <!--- Div caption sobrepoe texto ao video -->   
+ <div class="video">
+  <video autoplay muted defaultMuted loop>
+    <source src="46301467-04bc-4812-a22d-5526dfda10a8 (1).MOV" type="video/mp4"  />
+  </video>
+  
+  <!--- Div caption sobrepoe texto ao video -->  
   <div class="caption">
-      <!--- Codigo que ja tinha-->   
-     <div class="row mb-5">
-      <h1 class="mb-4">Freixo de Espada à Cinta  </h1>
-      </div>       
-    <!--- Codigo que ja tinha-->   
+    <div class="row mb-5">
+      <h1 class="mb-5">Freixo de Espada à Cinta</h1>
     </div>
-    <!--- Div caption sobrepoe texto ao video -->   
-    </div><!--- FECHAMENTO Div video --> 
+  </div>
+</div>
+
    
  <main class="container my-5">
-
-      <section class="mb-5">
-          <h2 class="mb-4">A Historia </h2>
-        <div class="row">
-        <div class="col-md-3">
-          <img src="freixo300.jpg" class="rounded " alt="brasao" >     
-        </div>
-        <div class="col-md-9">
-            <p>Há diversas explicações para o curioso nome desta vila. Uns dizem que teve origem no nome de um fidalgo godo "Espadacinta", outros no brasão de um fidalgo leonês que tinha um freixo e uma espada ou, ainda, na lenda que diz que D. Dinis rei de Portugal, quando fundou a localidade no séc. XIV, amarrou a sua espada a um freixo, antes de se encostar à árvore a descansar. Essa árvore, de grande porte, está há mais 500 anos no largo principal da vila e merece observação atenta.</p>
-        </div>
+<br>
+  <section class="mb-5" style="margin: auto;">
+    <h2 class="mb-4">A História</h2>
+    <br><br>
+    <div class="row">
+      <!-- Coluna da imagem, ajustando para responsividade -->
+      <div class="col-12 col-md-3">
+        <img src="freixo300.jpg" style="border-radius: 10px; box-shadow: 0 4px 8px #ffa500;" class="img-fluid rounded" alt="brasao">
       </div>
-    </section>
+     
+      <!-- Coluna do texto -->
+      <div class="col-12 col-md-9">
+        <p>Há diversas explicações para o curioso nome desta vila. Uns dizem que teve origem no nome de um fidalgo godo "Espadacinta", outros no brasão de um fidalgo leonês que tinha um freixo e uma espada ou, ainda, na lenda que diz que D. Dinis, rei de Portugal, quando fundou a localidade no séc. XIV, amarrou a sua espada a um freixo, antes de se encostar à árvore a descansar. Essa árvore, de grande porte, está há mais de 500 anos no largo principal da vila e merece observação atenta.</p>
+      </div>
+    </div>
+  </section>
+  
 
 <section class="mb-5">
     <h2 class="mb-4">Atividades na regiao </h2>
@@ -97,7 +103,8 @@ crossorigin="anonymous">
     <div class="col-md-4">
       <h3>Nossa Sra. do Douro</h3>
       <br>
-      <img src="Santa300.png" alt="Desenvolvimento Front-end" class="img-fluid">
+      
+      <img src="Santa300.png" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500;" alt="Desenvolvimento Front-end" class="img-fluid">
       <br><br>
       <p>O Poder dos Sentidos…
        Integrado em toda a sua extensão territorial, no Parque do Douro Internacional, Freixo de Espada à Cinta dispõe de uma rede de miradouros e de outros locais de situação estratégica, de onde se pode apreciar todo o esplendor da natureza.</p>
@@ -108,7 +115,7 @@ crossorigin="anonymous">
     <div class="col-md-4">
         <h3>Barragem de Saucelle </h3>
         <br>
-        <img src="Barragem300.png" alt="Desenvolvimento Front-end" class="img-fluid">
+        <img src="Barragem300.png" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500;" alt="Desenvolvimento Front-end" class="img-fluid">
         <br>
         <br>
         <p>
@@ -121,7 +128,7 @@ crossorigin="anonymous">
     <div class="col-md-4">
         <h3>Miradouro Espanha </h3>
         <br>
-        <img src="Gaiola300.png" alt="Design de UX/UI" class="img-fluid">
+        <img src="Gaiola300.png" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500;" alt="Design de UX/UI" class="img-fluid">
         <br><br>
         <p>
           O Poder dos Sentidos…
@@ -142,19 +149,19 @@ crossorigin="anonymous">
       <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="casa200P.JPG" class="d-block w-100" alt="Casa vista 1">
+            <img src="casa200P.JPG" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500; class=" d-block w-100 alt="Casa vista 1">
           </div>
           <div class="carousel-item">
-            <img src="casafrente200.JPG" class="d-block w-100" alt="Frente da casa">
+            <img src="casafrente200.JPG" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500; class="d-block w-100 alt="Frente da casa">
           </div>
           <div class="carousel-item">
-            <img src="casafundo.JPG" class="d-block w-100" alt="Fundo da casa">
+            <img src="casafundo.JPG" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500; class="d-block w-100 alt="Fundo da casa">
           </div>
           <div class="carousel-item">
-            <img src="quarto1.JPG" class="d-block w-100" alt="Quarto 1">
+            <img src="quarto1.JPG" style="border-radius: 10px; box-shadow: 0px 1px 0px 2px #ffa500; class="d-block w-100 alt="Quarto 1">
           </div>
           <div class="carousel-item">
-            <img src="quartoporta.JPG" class="d-block w-100" alt="Porta do quarto">
+            <img src="quartoporta.JPG" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500; class="d-block w-100 alt="Porta do quarto">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -182,7 +189,7 @@ crossorigin="anonymous">
   <div class="col-md-4">
     <h3>Medalhões de vitela</h3>
     <br>
-    <img src="carne.png" alt="Desenvolvimento Front-end" class="img-fluid">
+    <img src="carne.png" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500; alt="Desenvolvimento Front-end" class="img-fluid">
     <br><br>
     <p>Preparação: <br>
       Coram-se os medalhões com manteiga e louro. Junta-se-lhes os cogumelos e o fiambre e leve ao forno</p>
@@ -194,7 +201,7 @@ crossorigin="anonymous">
   <div class="col-md-4">
       <h3>Bacalhau </h3>
       <br>
-      <img src="bacalhau.png" alt="Desenvolvimento Front-end" class="img-fluid">
+      <img src="bacalhau.png" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500; alt="Desenvolvimento Front-end" class="img-fluid">
       <br><br>
       <p>
         O bacalhau assado, temperado com pimenta, alho e azeite, também se destaca em toda a região como alternativa aos pratos de carne.</p>
@@ -205,7 +212,7 @@ crossorigin="anonymous">
   <div class="col-md-4">
       <h3>Chouriça e alheira </h3>
       <br>
-      <img src="alheira.png" alt="Design de UX/UI" class="img-fluid">
+      <img src="alheira.png" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500; alt="Design de UX/UI" class="img-fluid">
       <br><br>
       <p>
         É uma mesa farta feita de sopas de alho, alheira e chouriça grelhada, bacalhau assado, costeletão de vitela e vinho (20 euros por pessoa).</p>
@@ -223,7 +230,8 @@ crossorigin="anonymous">
 <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" /><image href="tinto.png" x="0" y="0"></svg></svg>
+            <svg class="bd-placeholder-img rounded-circle" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" />
+            <image href="tinto.png" x="0" y="0"></svg></svg>
             <h3>Vinho tinto</h3>
             <br>
             <p>Vinho tinto é a bebida resultante da fermentação do suco ou mosto extraído de uvas pretas ou tintas no qual é imperativo que haja maceração das cascas no mosto com a finalidade de se atribuir cor e sabor à bebida.</p>
@@ -256,14 +264,15 @@ crossorigin="anonymous">
   <div class="row text-center">
     <div class="col-md-4">
       <br>
-      <img src="19a71b7d-3fc9-4308-b369-ee5438cd1805.JPG" alt="Desenvolvimento Front-end" class="img-fluid">
+      <img src="19a71b7d-3fc9-4308-b369-ee5438cd1805.JPG" alt="Desenvolvimento Front-end" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500; class="img-fluid"  >
       <br><br><br>
       <p>Preparação: Coram-se os medalhões com manteiga e louro. Junta-se-lhes os cogumelos e o fiambre e leve ao forno</p>
     </div>
 
     <div class="col-lg-4">
-      <svg class="bd-placeholder-img rounded-circle" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Caipirinha</title><rect width="100%" height="100%" /><image href="azeite4.JPG" x="0" y="-50"></svg>
-      <h3>Vinho rosé</h3>
+      <svg class="bd-placeholder-img rounded-circle" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" />
+      <image href="azeite4.JPG"  x="0" y="-50" border-raius ></svg>
+      <h3>O azeite </h3>
       <br>
       <p>O rosé é resultante da fermentação do suco extraído de uvas tintas na qual há um curto contato das cascas com o mosto, com a finalidade de se atribuir um leve toque rosado de cor e sabor levemente tânico à bebida.</p>
       <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
@@ -272,7 +281,7 @@ crossorigin="anonymous">
        
     <div class="col-md-4">
         <br>
-        <img src="19a71b7d-3fc9-4308-b369-ee5438cd1805.JPG" alt="Desenvolvimento Front-end" class="img-fluid">
+        <img src="19a71b7d-3fc9-4308-b369-ee5438cd1805.JPG" alt="Desenvolvimento Front-end" style="border-radius: 10px; box-shadow: 0px 4px 8px #ffa500;  class="img-fluid">
         <br><br>
         <p>
           O bacalhau assado, temperado com pimenta, alho e azeite, também se destaca em toda a região como alternativa aos pratos de carne.</p>

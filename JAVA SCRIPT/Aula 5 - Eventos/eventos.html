@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<h1>Aprendendo JS</h1>
+<h2>Eventos JS</h2>
+<p id="texto"></p>
+
+<button onclick="eventoclick()">Clique aqui</button>
+
+<select onchange="Mudou()" name="" id="itens">
+    <option value="1">Valor 1</option>
+    <option value="2">Valor 2</option>
+    <option value="3">Valor 3</option>
+    <option value="4">Valor 4</option>
+    
+</select>
+
+<button ondblclick="dblclick()">Clique duplo</button> <br><br><br>
+
+
+<div id="teste"  onmouseout="viraAzul()" onmouseover="viraVermelho()" style="width: 80%;margin: auto; height:200px;  background-color: aqua;"></div>
+
+<br>
+<br>
+<br>
+
+<input onfocus= limpaTexto()  id="campoTesto" style="padding:80px; font-size:40px;" type="text" placeholder="Digite alguma coisa" value="ja vem com o texto">
+
+
+
+<script src="js/eventos.js"></script>
+
+    
+</body>
+</html>

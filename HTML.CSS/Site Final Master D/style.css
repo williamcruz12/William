@@ -9,21 +9,22 @@
   body {
     background-color: #4a7e56 !important;
     font-family: "Lato", sans-serif!important;
-    line-height: 1.6!important;
+    line-height: 1.!important;
   } 
    
    #navbarNav{
     justify-content: center;
     font-size: x-large;
-    font-family: "Merriweather", serif;   
+    font-family: "Merriweather", serif;  
   }
+ 
 li{
   margin: 15px;
   
 }
 
 .video {
-    height: 400px!important;/* Ajustar a altura em pixes */
+    height: 400px!important;
     width: 100%!important;
     position: relative!important;
   }
@@ -34,6 +35,8 @@ li{
   position: absolute!important;
   object-fit: cover!important;
   z-index: 0!important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Efeito de sombra */
+      border-radius: 10px; /* Se quiser bordas arredondadas */
   }
 
 /* h1 video*/
@@ -41,15 +44,15 @@ li{
   z-index: 1!important;
   position: relative!important;
   text-align: center!important;
-  
   color:#ffa500;
-  text-shadow: 1px 1px black;
+  text-shadow: 0 4px 8px black;
+  margin: auto;
 }
 #azeite{
   font-family: "Merriweather", serif;
     color:#ffa500 !important; 
     text-align: center!important;
-    text-shadow: 1px 1px black;
+    text-shadow: 0 4px 8px black;
 }
 #azite p{
   color: black;
@@ -59,7 +62,7 @@ li{
     font-family: "Merriweather", serif;
     color:#ffa500 !important; 
     text-align: center!important;
-    text-shadow: 1px 1px black;
+    text-shadow: 0 4px 8px black;
            
   }
 
@@ -70,6 +73,7 @@ li{
     margin-bottom: 1rem !important;
     font-size: 3.5rem !important;
     line-height: 250px !important;
+    text-shadow: 0 4px 8px black!important;
     
    }
    h2{
@@ -77,7 +81,7 @@ li{
     color:#ffa500 !important; 
     text-align: center;
     font-size: 2.5rem !important;
-    text-shadow: 1px 1px black;
+    text-shadow: 0 4px 8px black;
           
    }
    
@@ -85,10 +89,11 @@ li{
    p {
     margin-bottom: 1.5rem !important;
     color: #fff !important;
-    font-size: 1.5em;
-    font-weight: 1.5em;
+    font-size: 1.3em;
+    font-weight: 1.3em;
     text-align: justify;
-    margin: 10px;
+    margin: 8px;
+    text-shadow: 0 4px 8px black;
    } 
 
   
